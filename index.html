@@ -14,6 +14,36 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h2>Five Elements</h2>
+    </header>
+
+    <section class="game-area">
+        <div>
+            <p>Make a choice:</p>
+            <button aria-label="Metal" data-choice="0" class="control">Metal</button>
+            <button aria-label="Wood" data-choice="1" class="control">Wood</button>
+            <button aria-label="Water" data-choice="2" class="control">Water</button>
+            <button aria-label="Fire" data-choice="3" class="control">Fire</button>
+            <button aria-label="Earth" data-choice="4" class="control">Earth</button>
+        </div>
+        <div id="message"></div>
+        <div class="player">
+            <h3 class="scores">Your score: <span id="play-score">0</span></h3>
+            <image id="player-image" src="assets/images/wuxing.webp" alt="Five Elements"></image>
+        </div>
+        div class="computer">
+            <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
+            <image id="Computer-image" src="assets/images/wuxing.webp" alt="Five Elements"></image>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Rules</h3>
+        <p>The Generating/gen. Cycle: Metal gen. Water gen. Wood gen. Fire gen. Earth gen. Metal</p>
+        <p>The Controlling/con. Cycle: Metal con. Wood con. Earth con. Water con. Fire con. Metal</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
