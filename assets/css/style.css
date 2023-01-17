@@ -47,27 +47,28 @@ header {
 }
 
 #flex-container div {
-    margin: 20px;
+    margin: 10px;
 }
 
 .player {
     background-color: rgb(193, 250, 188);
     float: left;
-    width: 300px;
+    width: 24%;
     height: 300px;
 }
 
 .computer {
     background-color: rgb(157, 251, 251);
-    width: 300px;
+    width: 24%;
     height: 300px;
 }
 
 #image-container {
     background-color: white;    
-    width: 300px;
+    width: 34%;
     height: 300px;
-    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
 
 #image-container img {
@@ -80,10 +81,10 @@ header {
 }
 
 #choices {
-    width: 400px;
+    
     height: 80px;
     background-color: rgb(221, 197, 244);
-    width: 96%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -97,7 +98,7 @@ header {
 
 footer {
     position: relative;
-    width: 72%;
+    width: 64%;
     margin-left: auto;
     margin-right: auto;
     top: 20px;
@@ -118,5 +119,12 @@ footer p {
     margin: -1px;
 }
 
+#your-choice {
+    width: 100%;
+}
+
+#opponent-choice {
+    width: 100%; 
+}
 
 
