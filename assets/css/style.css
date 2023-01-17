@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Lato:wght@300&family=Oswald&display=swap');
+
+/* Main view set up */
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+}
+
+/* header and footer */
+
+header {
+    text-align: center;
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-width: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(145, 5, 5);
+    background-color: bisque;
+}
+
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+}
+
+#message {
+    height: 20px;
+}
+
+.player {
+    background-color: rgb(193, 250, 188);
+    float: left;
+    width: 45%;
+}
+
+#play-image {
+    width: 100%;
+}
+
+.computer {
+    background-color: rgb(157, 251, 251);
+    float: right;
+    width: 45%;
+}
