@@ -26,17 +26,18 @@ footer {
     bottom: 0;
     box-sizing: border-box;
     min-width: 80px;
-    padding-top: 5px;
     text-align: center;
     color: rgb(145, 5, 5);
     background-color: bisque;
+    padding-top: 3px;
+    padding-bottom: 4px;
 }
 
 .game-area {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: -25px; 
     text-align: center;
 }
 
@@ -54,15 +55,31 @@ footer {
 .player {
     background-color: rgb(193, 250, 188);
     float: left;
-    width: 45%;
-}
-
-#play-image {
-    width: 100%;
+    width: 40%;
 }
 
 .computer {
     background-color: rgb(157, 251, 251);
     float: right;
-    width: 45%;
+    width: 40%;
 }
+
+.container {
+    background-color: white;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header h2 {
+    margin: -5px;
+    padding-bottom: -25px; 
+}
+
+footer p {
+    margin: -5px;
+}
+
