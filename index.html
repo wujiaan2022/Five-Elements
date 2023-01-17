@@ -14,26 +14,30 @@
         <h2>Five Elements</h2>
     </header>
 
-    <section class="game-area">
-        <div id="makechoice-heading">
-            <p>Make a choice:</p>
-            <button aria-label="Metal" data-choice="0" class="control">Metal</button>
-            <button aria-label="Wood" data-choice="1" class="control">Wood</button>
-            <button aria-label="Water" data-choice="2" class="control">Water</button>
-            <button aria-label="Fire" data-choice="3" class="control">Fire</button>
-            <button aria-label="Earth" data-choice="4" class="control">Earth</button>
-        </div>
-        <div id="message"></div>
+    <section class="game-area">        
         <div id="flex-container">
+
             <div class="player">
-                <h3 class="scores">Your score: <span id="play-score">0</span></h3>                       
+                <h3 class="scores">Your score: <span id="play-score">0</span></h3> 
+                <img id="player-choice">                                                   
             </div>
+
             <div id="image-container">
-                <image id="player-image" src="assets/images/five elements.png" alt="Five Elements"></image>
+                <image id="five-elements-image" src="assets/images/five elements.png" alt="Five Elements"></image>
             </div> 
+
             <div class="computer">
-                <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>                        
+                <h3 class="scores">Computer score: <span id="computer-score">0</span></h3> 
+                <img id="computer-choice">                         
             </div>
+        </div>
+
+        <div id="choices">
+            <img id="Metal" src="assets/images/Metal.png">
+            <img id="Wood" src="assets/images/Wood.png">
+            <img id="Water" src="assets/images/Water.png">
+            <img id="Fire" src="assets/images/Fire.png">
+            <img id="Earth" src="assets/images/Earth.png">
         </div>
         
     </section>
