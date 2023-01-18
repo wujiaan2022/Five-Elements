@@ -46,8 +46,8 @@ function selectChoice () {
                 yourScore += 1;
             }                
          } 
-
-        if (you == "Wood") {
+        else
+        if (you == "wood") {
             if (opponent == "metal") {
                 opponentScore += 1;
             }
@@ -64,7 +64,7 @@ function selectChoice () {
                 yourScore += 1;
             }               
         }
-        
+        else
         if (you == "Water") {
             if (opponent == "metal") {
                 yourScore += 1;
@@ -82,7 +82,7 @@ function selectChoice () {
                 opponentScore += 1;
             }                
         } 
-
+        else
         if (you == "fire") {
             if (opponent == "metal") {
                 yourScore += 1;
@@ -100,7 +100,7 @@ function selectChoice () {
                 opponentScore += 1;
             }
         }
-                
+        else       
         if (you == "earth") {
             if (opponent == "metal") {
                 opponentScore += 1;
