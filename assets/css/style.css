@@ -18,26 +18,26 @@ header {
     position: sticky;
     text-align: center;    
     letter-spacing: 5px;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 h3 {
-    font-size: 3vw;
+    font-size: 1.5vw;
 }
 
 .game-area {
     width: 100%;
-    margin-top: -25px; 
+    /* margin-top: -25px;  */
     text-align: center;
     box-sizing: border-box;
 }
 
 
 #flex-container { 
-    width: 90%; 
-    display:flex;   
-    align-items: center;
-    align-content: center;
+    width: 70%; 
+    display: flex;   
+    /* align-items: center; */
+    /* align-content: center; */
     justify-content: center;
     margin: 0 auto;
     box-sizing: border-box;
@@ -64,14 +64,23 @@ h3 {
 .image-container {
     background-color: white;    
     width: 30%;  
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
+
+    align-items: center;
+    align-content: center;
+}
+
+.empty-div {
+    width: 100%;
+    height: 40px;
+    background-color: white;
 }
 
 .image-container img {
     
-    width: 100%;
-    margin: 30px auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .computer {
@@ -119,14 +128,15 @@ h3 {
 
 #makeChoice {
     
-    font-size: 3vw;;
+    font-size: 2vw;;
     letter-spacing: 5px;
+    margin-top: -25px;
 }
 
 
 #choices {    
     background-color: rgb(221, 197, 244);
-    width: 90%;    
+    width: 70%;    
     margin: 10px auto;
     
 }
@@ -145,7 +155,7 @@ h3 {
 
 footer {
     position: relative;
-    width: 90%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     top: 20px;    
