@@ -57,7 +57,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop down menu, select Main Branch
 - Once the main branch has been selected, the page will provide the link to the completed website.
 
-The live link can be found here - [five elements](https://8000-wujiaan2022-fiveelement-zr0rgzsx44l.ws-eu98.gitpod.io/)
+The live link can be found here - [five elements](https://wujiaan2022.github.io/Five-Elements/)
 # Credits
 #### Content
 The code to make the social media links was taken from the CI [Love Running Project ](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)
